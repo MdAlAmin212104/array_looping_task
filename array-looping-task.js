@@ -34,11 +34,11 @@ const numbers = [12, 98, 5, 41, 23, 78, 46];
 for (let i = 0; i < numbers.length; i++) {
       const element = numbers[i];
       if ( element % 2 === 0 ) {
-            const array_output = (result.push(element));
+            result.push(element);
       }
       
 }
-console.log(result);
+//console.log(result);
 
 
 /* 
@@ -54,6 +54,13 @@ Use a for...of loop to concatenate all the elements of an array into a single st
 `'TomTimTinTik'`
 */
 
+var deferentName = ['Tom', 'Tim', 'Tin', 'Tik'];
+let single_output = '';
+for ( let str of deferentName ) {
+      single_output = single_output + str
+}
+
+console.log(single_output);
 
 
 
