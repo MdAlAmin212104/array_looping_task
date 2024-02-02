@@ -13,7 +13,7 @@ Write a JavaScript code to reverse the array colors `without using the reverse m
 */
 
 const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
-//console.log(colors.reverse());
+console.log(colors.reverse());
 
 
 /*
@@ -38,7 +38,7 @@ for (let i = 0; i < numbers.length; i++) {
       }
       
 }
-//console.log(result);
+console.log(result);
 
 
 /* 
@@ -76,3 +76,7 @@ Reverse the words of a sentence. Only the position of the word will be reversed.
 
 `'person working hard a am I'`
 */
+
+const statement = 'I am a hard working person';
+const outputSummary = statement.split(' ').reverse().join(' ');
+console.log(outputSummary);
