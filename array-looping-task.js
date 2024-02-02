@@ -29,7 +29,16 @@ Write a JavaScript code to get the even numbers from an array using any looping 
 `[12, 98, 76, 46]`
 */
 
-
+let result = [];
+const numbers = [12, 98, 5, 41, 23, 78, 46];
+for (let i = 0; i < numbers.length; i++) {
+      const element = numbers[i];
+      if ( element % 2 === 0 ) {
+            const array_output = (result.push(element));
+      }
+      
+}
+console.log(result);
 
 
 /* 
